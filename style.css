@@ -1,0 +1,40 @@
+body{
+    background-color: #000; 
+    display:flex; 
+    justify-content: center; 
+    align-items:center; 
+    height:100vh;
+    font-family:"Roboto";
+}
+.cover{
+    height:300px; 
+    width:300px;
+    padding:5%; 
+    border-top-color:orange; 
+    border-left-color:green;
+    border-bottom-color:blue; 
+    border-right-color:white;
+    transform:rotate(45deg);
+
+    border-style: solid; 
+    border-width:30px;
+   
+}
+.cover-2{
+    transform:rotate(-45deg);
+   
+}
+
+h1{
+    color:#fff; 
+    font-weight:bold;
+    font-size:40px;
+}
+p{
+    color:#fff;
+    font-size:20px;
+}
+span{
+    color:orange;
+    font-weight:bold;
+}
